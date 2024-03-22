@@ -109,9 +109,70 @@ A button below the checkbox, which when clicked should console log only the Id o
 - Create a component which converts the input to ascii, add 10 to it and convert the same from char code.
 
 - Validate form 
-```name (must not be empty and less than 100 characters allow);
+name (must not be empty and less than 100 characters allow);
 age (between 18-99)
 email(valid email)
 password(at least 8 characters)
 re-password(password and re-password same)
-show error message in the alert box!```
+show error message in the alert box!
+
+## DSA 
+- Sum of digits at even places of a number.
+- Recursive solution to find factorial.
+- check if strings are rotational of each other.
+- recursion solution to multiply without using multiply operator
+- Find the maximum Occurring string from an array.
+- Given an array conver it to linked list and find the head from the converted linked list.
+- Flatten an array without using inbuilt js methods.
+-  implement recursion function to print every character of string , after that its should print "its vowel" for every vowel from string.
+- let arr = [ " ( ", " } ", " ] " , " { ", " ) ", " [ " ];  to   ["(", ")", "{", "}", "[", "]"]
+      sort the array with pairs
+     catch:  a left brace has a high priority over right brace 
+      so in case of left brace "(" so we have to find it first pair ")" .
+- Write a function which takes an array and returns sub arrays. for eg if we pass [1, 1, 2, 2, 4, 4, 5, 5, 5] as input we should get [[1,1,2,2], [4,4,5,5,5]] as output. Basically sub array can only contain one pair of consecutive elements but those elements should repeat as many times as they repeated in original array. 
+- Given input : 
+{
+    "harsh" : ["cricket", "vollyball"],
+    "aasim" : ["cricket", "football", "ludo", "COD", "rugb", "vollyball", "Racing"],
+    "jignesh" : ["cycling", "cricket"],
+    "jimish" : ["cycling"],
+    "prince" : ["vollyball","football"],
+    "raj" : ["ludo","cricket","cycling"]
+}
+ 
+output : 
+{
+    "harsh, aasim":["cricket","vollyball"],
+    "harsh, jignesh":["cricket"],
+    "harsh, jimish":[],
+    "harsh, prince":["vollyball"],
+    "harsh, raj":["cricket"],
+    "aasim, jignesh": ["cricket"],
+    "aasim, jimish": ["],
+    "aasim, prince": ["vollyball","football],
+    "aasim, raj": ["ludo","cricket"],
+    "jignesh, jimish" : ["cycling"],
+    "jignesh, prince" : [],
+    "jignesh, raj" :["cycling"],
+    "prince, raj" : []
+ }
+
+- Sort the array without inbuilt method.
+- Binary search implementation (Find index of number present in a sorted array).
+- Find the 3rd largest element in an array.
+- Sort the array 1's , 2's and 3's -> [0, 1, 1, 2, ,1 , 2, 0] -> [0, 0, 1, 1,1, 2, 2]
+- Given a string "{}()[}[)]" , find the valid parenthesis, if yes return true else false.
+- Count the number of each character occured in string  "madam".
+- Remove duplicates from an array.
+- Check is the string is a palimdrome.
+- Reverse the string
+- Capitalize first letter of each word -> "abhay is cool" => "Abhay Is Cool"
+- Array methods -> Filter, map, reduce, slice, splice, sort.
+- Check if the number is a palimdrome or not.
+- Impement stack and it's operations.
+- Write a function that converts an object into an array, where each element represents a key-value pair in the form of an array
+.toArray({ shrimp: 15, tots: 12 }) ➞ [["shrimp", 15], ["tots", 12]]
+- Create a function which takes an array arr of integers as an argument. This function must return another function, which takes a single integer as an argument and returns a new array.
+The returned array should consist of each of the elements from the first array multiplied by the integer. 
+multiply([1, 2, 3])(2) ➞ [2, 4, 6]
+
