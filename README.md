@@ -32,6 +32,19 @@ A curated list of Javascript, React, Machine coding problems, Pattern questions,
 IP - "x.y.z", "convert"
 OP - {a: {b: {c: "convert"}}}
 ```
+- Difference between preventDefault and stopPropagation.
+
+- Write a JS func that takes an obj and a callback, execute the callback after 3 sec.
+- Create a function that takes 3 arguments function, interval, and frequency. the function should execute as many times as the frequency
+ we passed and there should be a delay equal to the interval
+ we passed. For eg our(() => console.log("hi"), 2, 3)
+ should print "hi" 3 times with a gap of 2 seconds between each execution.Add up to this, the user should have control to terminate the callback function. Suppose we are pinging the server and if we get the response we should stop executing the function.
+
+- this, call, bind , apply and their polyfills.
+- Difference between == and ===
+- Exception handling 
+- Difference between i++ and ++i.
+- What happens when you fetch an api, and what role does dns play in this.
 
 ## Machine coding questions - (vanilla JS/ React)
 - Show a button that will show start label on click it should show stop, viceversa show a counter with 0, after clicking start it should increment the counter by 1 every one second, on click of stop it should stop the counter and resume again where it was stopped previously.
@@ -72,3 +85,33 @@ OP - {a: {b: {c: "convert"}}}
 2. Previous : This will show the previous value that was before incrementing the count.
 ```
 
+- Build an input box and a button to store items in an array, and have another button to find the second largest element from the stored array. Also, the array of items should be displayed along with the second-largest number.
+
+- Create a reusable input component that will accept type as a prop
+ and will do different types of input validation(if the type is text it should contain max x no. of characters if a type is a number it should be between x and y etc.) depending upon the type we passed. As soon as something invalid is entered, an error should dynamically show on screen and as soon as we change it to something valid, the error should also disappear.
+
+- Implement four quadrants  (just like the Microsoft logo) using react with reusability.
+And after that, whenever I click on a  box, it should show clicked on that particular box, and when I click on another box  it should show clicked in that box and disappear in another box. ( without any code redundancy)
+
+- Make three radio buttons with labels red, blue, and yellow and add a div below it . When I click on any radio
+button the color of the div should change ,for example , if I click on red the colour should be red.
+Add feature that if I click on two radio buttons the colour of div should be mixture of those colours.
+
+- On check/uncheck of top checkbox, all checkboxes should be checked/unchecked and vice-versa.
+We should be able to individualy check/uncheck checkbox from the list. 
+If any of the checkbox is unchecked, the top checkbox should show an intermediate symbol.
+A button below the checkbox, which when clicked should console log only the Id of the checked checkbox.
+
+- create a toast message using Javascript/ React , it should disappear automatically after 5sec.
+
+-  Create a Reusable react card, header and type is passed as props, style of that card should be determined by type of card it is through prop : like type="facebook" some style, for "twitter" some other style, some nested components inside the body of card, they should also have styles.
+
+- Create a component which converts the input to ascii, add 10 to it and convert the same from char code.
+
+- Validate form 
+```name (must not be empty and less than 100 characters allow);
+age (between 18-99)
+email(valid email)
+password(at least 8 characters)
+re-password(password and re-password same)
+show error message in the alert box!```
