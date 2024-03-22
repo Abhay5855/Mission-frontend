@@ -66,5 +66,9 @@ OP - {a: {b: {c: "convert"}}}
 6. create a function top : Displays the topmost element of the stack.
 ```
 
-
+- Impelement a previous and next functionality, create a button increment, display initial count to 0, when Increment is clicked it should show two text - 
+```
+1. Current : that will display the incremented count.
+2. Previous : This will show the previous value that was before incrementing the count.
+```
 
