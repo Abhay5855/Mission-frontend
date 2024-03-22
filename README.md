@@ -25,6 +25,29 @@ A curated list of Javascript, React, Machine coding problems, Pattern questions,
 - What is currying.
 - Problem statement : Create a infinite currying function.
 - Except this keyword what other things are there that arrow function does not have.
+- We cannot reassign or redeclare a variable to const declaration, but in the case of array/object how is this possible?
+- What is an IIFE
+- Problem Statement: Write a function to create an object from a string 
+```
+IP - "x.y.z", "convert"
+OP - {a: {b: {c: "convert"}}}
+```
 
+## Machine coding questions - (vanilla JS/ React)
+- Show a button that will show start label on click it should show stop, viceversa show a counter with 0, after clicking start it should increment the counter by 1 every one second, on click of stop it should stop the counter and resume again where it was stopped previously.
+- Given an API returning a list of todos, we want to fetch the list, create a separate block for each user, and display their todos in the appropriate block. Use this endpoint URL to get the todos: https://dummyjson.com/todos?limit=10&skip=80. It will return the following structure with a total of 10 todos: { “todos”: [ { “id”: 1, “todo”: “Do something nice for someone I care about”, “completed”: true, “userId”: 26 }, ], } Each block should contain the userId as the title of the block and the list of todos.
+
+-  Create 2 mock API’s which returns a list of students and each student has a name, some marks and a unique registration ID. Data from the 2 API’s can have common students i.e. mock API 1 can have a student as — ABC / 98% / 1234 (name / marks / registration ID) and this same data can be there in mock API 2 response as well. Now after creating these 2 API’s using Promises and hard-coded data, you need to merge the data coming from both API’s and have to delete the duplicates.
+
+- Using this API endpoint - https://dummyjson.com/products, Display the data in a list with a checkbox and button delete with each item, Before displaying the items, add a feild completed: false in the JSON, It should be able to delete the item on click of delete button, on click of checkbox it should mark the item as completed with line-through to the item marking it as complete.
+
+- Implement pagination using this API endpoint - https://dummyjson.com/products, 
+```
+1.It should display 10 items on each page.
+2. The page which is active should show active state.
+3. It should have forward and Previous arrow on which we can change the page number.
+4. Handle loading state on each page change.
+5. When it's the first page the previous button should be disabled, similarly for last page.
+```
 
 
