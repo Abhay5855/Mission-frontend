@@ -50,4 +50,21 @@ OP - {a: {b: {c: "convert"}}}
 5. When it's the first page the previous button should be disabled, similarly for last page.
 ```
 
+- https://dummyjson.com/products using this API, display products, create a sidebar Just like Flipkart UI, show checkboxes with label - 40% and more,  50% and more,  60% and more,  70% and more, When click on particular checkboxs it should filter the products according to the discount percentage, If no products available show a display message accordingly, there should also be a button to clear the selection of selected percentage, render the UI accordingly.
+
+- Create a multi-step form, where next and previous button are there on the last page user should be able to submit the form, on previous click the data entered should be persisted.
+
+- Create a stopwatch display in this format - HH:MM:SS, with three buttons start, stop and reset, it should update the seconds every one second, after 60 sec update to 1 minute after 60min, update to 1hr, on stop button it should stop the watch and should be able to start again, on reset it should reset all values.
+
+- Implement a stack structure
+```
+1. Create a UI that resembles stack 
+2. Add Input that accepts number.
+3. push button : Add an element to the top of the stack.
+4. pop button : Remove the topmost element from the stack.
+5. create a function isEmpty : Checks whether the stack is empty.
+6. create a function top : Displays the topmost element of the stack.
+```
+
+
 
