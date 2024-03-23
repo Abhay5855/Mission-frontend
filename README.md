@@ -240,5 +240,19 @@ multiply([1, 2, 3])(2) ➞ [2, 4, 6]
 - What are fragments in react.
 - Difference between element and component in React.
 - What are Error Boundaries.
-- How will you handle Errors in React.
+
+## Basic Backend 
+- Rest API.
+- types of Status code and what they refer to.
+- Middlewares.
+- Types of storage.
+- Accesss token and Refresh token.
+- How Authentication works.
+- Difference between Sql and noSql database.
+- How will you validate API.
+- ContentType
+- What are headers.
+- What type of content can you pass in the Rest API.
+- Basic Schema idea - how will you design schema.
+- What is ORM.
 
