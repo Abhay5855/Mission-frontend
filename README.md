@@ -1,4 +1,4 @@
-# Frontend-hero
+# Mission Frontend
 A curated list of Javascript, React, Machine coding problems, Pattern questions, basic backend knowledge and fundamentals questions all in one.
 
 ## Javascript 
