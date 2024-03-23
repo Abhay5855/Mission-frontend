@@ -115,6 +115,7 @@ email(valid email)
 password(at least 8 characters)
 re-password(password and re-password same)
 show error message in the alert box!
+- optimize the performance of a React app that displayed a large list of data, and the interviewer wanted me to explain the most efficient approach to rendering the lists.
 
 ## DSA 
 - Sum of digits at even places of a number.
@@ -175,4 +176,69 @@ output :
 - Create a function which takes an array arr of integers as an argument. This function must return another function, which takes a single integer as an argument and returns a new array.
 The returned array should consist of each of the elements from the first array multiplied by the integer. 
 multiply([1, 2, 3])(2) ➞ [2, 4, 6]
+
+
+## React 
+- Dependency Injection.
+- What are high order components, explain with an example.
+- Design patterns.
+- What solid principles are followed in React.
+- Presentational Components - What are pros and cons.
+- Virtual Dom.
+- Lazy loading and Suspense.
+- what are protected routes, how will you implement that.
+- Lifting the state up.
+- What components will you use lazy loading.
+- Controllled vs Uncontrolled components.
+- Class based vs Functional based components pros and cons.
+- Why does component re-render.
+- useMemo and useCallback Hook differences.
+- Memoisation.
+- CSR VS SSR.
+- how to handle image uploading -> asset optimization techniques.
+- Why the key should be unique.
+- Why should you use redux instead of context.
+- Can redux have multiple stores, and can context have multiple context.
+- Life cycle hooks.
+- Difference between state and props.
+- What is batching.
+- what is prop drilling how can you avoid prop drilling.
+- How will you structure your folder architecture - redux, helpers, utils, constants, components.
+- What are reusable component - create a reusable Input component that will handle email, password, number, text at same time.
+- If props are passed from parent to child and if I made some changes in props value in child will the value be affected in the Parent component.
+- Why does state use previous values to update or set state.
+- What are the things that can be passed in dependency array of useEffect.
+- Can functions be passed in the dependency array.
+- Diffrence between useLayoutEffect and useEffect which is synchronous and which is asynchronous.
+- Can you use this keyword in functional component.
+- Create a h2 tag with classname attached to it and display it on the screen without using JSX.
+- What is babel.
+- Why is React so fast.
+- React VS VueJs VS Angular JS which is better and why.
+- What problems does Next JS solve, that React does not.
+- React is declarative or imperative library.
+- What are children props.
+- What is useReducer hook how is it useful instead of using useState.
+- What value does useCallback hook return function or value?.
+- Why is Switch used in react-router-dom.
+- Create a custom useAsync hook, that will take API URL as parameter, and return loading, error, response and use this useAsync hook to fetch data.
+- Why setState is asynchronous.
+- What is cleanup function in useEffect where is it used.
+- What are pure components.
+- If child re-renders will the parent also re-render and viceversa.
+- Component lifecycle.
+- Does useRef hook cause re-render on change of something.
+- When to use useRef and useState hook.
+- Can you pass a function in the useState initial value.
+- How will you handle images that takes time to load on the UI.
+- How would you explain re-renders in React
+- What are synthetic events.
+- What are the optimization techniques to make react fast.
+- What is strict mode in react.
+- What is react element.
+- How will you explain components.
+- What are fragments in react.
+- Difference between element and component in React.
+- What are Error Boundaries.
+- How will you handle Errors in React.
 
