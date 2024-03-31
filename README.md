@@ -1,6 +1,25 @@
 # Mission Frontend
 A curated list of Javascript, React, Machine coding problems, Pattern questions, basic backend knowledge and fundamentals questions all in one.
 
+## HTML and CSS3 
+- Difference between innerText and textContent.
+- What is the use of data attribute.
+- Difference between loading lazy and loading eager on img tag.
+- Semantic and non-semantic elements.
+- Difference between rem, em and px.
+- make cards responsive (display vertical in column), when screen size changes to lower resolution - without using media query.
+- Difference between max-width and min-width.
+- Why should you use border:transparent instead of border:none.
+- How to check which HTML version are you using.
+- Difference between HTML4 and HTML5.
+- When to use Tailwind, CSS, SCSS and difference among them.
+- What are pseudo classes.
+- Difference between inline and block elements.
+- Problem statement: Add a background image and a text above it, add opacity to background image -> Adding opacity to the background image should not affect the text above it.
+- What is difference between display:none and display:hidden.
+- Flex and Grid which layout approach should you use and when to use.
+- Media Queries.
+
 ## Javascript 
 - What is difference between async and defer, which is better.
 - Problem statement : Explaing what is debouncing with an example, I just created a normal function that logs "click" after 2sec, even if multiple times button is called, followup question was If the same function that logs "clicked", is called with timeout lesser than the debounced function which should run first, if the less timeout function runs first abort it and call the debounced function first (Asked for SDE-1).
