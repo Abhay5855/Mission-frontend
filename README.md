@@ -259,6 +259,7 @@ multiply([1, 2, 3])(2) ➞ [2, 4, 6]
 - What are fragments in react.
 - Difference between element and component in React.
 - What are Error Boundaries.
+- What are render props pattern.
 
 ## Basic Backend 
 - Rest API.
