@@ -274,5 +274,18 @@ multiply([1, 2, 3])(2) ➞ [2, 4, 6]
 - What are headers.
 - What type of content can you pass in the Rest API.
 - Basic Schema idea - how will you design schema.
-- What is ORM.
+- What is ORM and ORD.
+- API Polling.
+- web tokens.
+- API versoning.
+
+## Performance and Optimization
+- Given list of images how would you render it effectively.
+- If network is low how will you manage the video calling effectively, if there is some error in it how will you display it to the user.
+- What is lazy loading and its tradeoffs.
+- How code splitting actually helps to reduce the bundle size.
+- Why react is faster?
+- If large unused css files are there will it effect the bundle size.
+- What if the font is not loading - how can you optimize it.
+- Fallback image and fallback font how to use them to optimize and improve performance.
 
