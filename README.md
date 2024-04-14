@@ -289,3 +289,9 @@ multiply([1, 2, 3])(2) ➞ [2, 4, 6]
 - What if the font is not loading - how can you optimize it.
 - Fallback image and fallback font how to use them to optimize and improve performance.
 
+## System Design 
+- video call feature, how to check network connection, which protocol to use, multiple joinee, backend connection, as I had done this feature using  aws chime sdk, so this was asked to me if not aws chime how will you implement it with performance optimisation.
+- TCP.
+- RTMP
+- Video optimization techniques.
+
