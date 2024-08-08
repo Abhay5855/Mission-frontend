@@ -65,6 +65,11 @@ OP - {a: {b: {c: "convert"}}}
 - Difference between i++ and ++i.
 - What happens when you fetch an api, and what role does dns play in this.
 
+## Guess the Output!
+```
+console.log(undefined  || 5 && 9 || 2 );
+```
+
 ## Machine coding questions - (vanilla JS/ React)
 - Show a button that will show start label on click it should show stop, viceversa show a counter with 0, after clicking start it should increment the counter by 1 every one second, on click of stop it should stop the counter and resume again where it was stopped previously.
 - Given an API returning a list of todos, we want to fetch the list, create a separate block for each user, and display their todos in the appropriate block. Use this endpoint URL to get the todos: https://dummyjson.com/todos?limit=10&skip=80. It will return the following structure with a total of 10 todos: { “todos”: [ { “id”: 1, “todo”: “Do something nice for someone I care about”, “completed”: true, “userId”: 26 }, ], } Each block should contain the userId as the title of the block and the list of todos.
